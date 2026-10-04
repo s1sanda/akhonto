@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.idea/
+.vscode/
+.git/
+.gitignore
+*.sqlite3
+*.db
+storage/
+android/**/build/
+*.apk
+*.aab
+local.properties
+.env
+.env.*

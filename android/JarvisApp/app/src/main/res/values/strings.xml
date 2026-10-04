@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">JARVIS</string>
+    <string name="server_hint">Server URL</string>
+    <string name="device_id_hint">Device ID</string>
+    <string name="device_name_hint">Device Name</string>
+    <string name="connect_button">Register device</string>
+    <string name="status_default">Ready to connect</string>
+</resources>

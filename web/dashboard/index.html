@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JARVIS Dashboard</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="layout">
+      <aside class="sidebar">
+        <h1>JARVIS</h1>
+        <nav>
+          <a href="#">Dashboard</a>
+          <a href="#">Devices</a>
+          <a href="#">Files</a>
+          <a href="#">Downloads</a>
+          <a href="#">VPN</a>
+          <a href="#">Assistant</a>
+          <a href="#">Automation</a>
+          <a href="#">Settings</a>
+        </nav>
+      </aside>
+
+      <main class="content">
+        <header class="topbar">
+          <div>
+            <h2>Overview</h2>
+          </div>
+          <span class="status-pill">System OK</span>
+        </header>
+
+        <section id="device-cards" class="cards"></section>
+
+        <section class="panel">
+          <h3>Recent files</h3>
+          <ul id="file-list">
+            <li>Loading transfers…</li>
+          </ul>
+        </section>
+
+        <section class="panel">
+          <h3>Latest activity</h3>
+          <ul>
+            <li>Heartbeat data updates every device status.</li>
+            <li>Device registry tracks last seen and connectivity.</li>
+            <li>Secure file uploads are stored under the server's private storage directory.</li>
+          </ul>
+        </section>
+      </main>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+*.sqlite3
+*.db
+storage/
+
+# Secrets and credentials
+credentials/
+**/credentials/
+**/*.pem
+**/*.key
+**/*.p12
+**/*.jks
+**/*.keystore
+**/local.properties
+**/.env
+**/.env.*
+
+# Build and generated artifacts
+build/
+dist/
+android/gradle/
+android/**/.gradle/
+android/**/build/
+android/**/local.properties
+android/**/app/build/
+*.apk
+*.aab
+*.zip
+*.jar
+*.exe
+server/cloudflared.exe
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
